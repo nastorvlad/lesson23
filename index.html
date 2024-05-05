@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script src="jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="div-one">
+        <div class="wrap">
+            <div class="logo-block">
+                <p class="logo"></p>
+                <button class="menu">Каталог</button>
+            </div>
+            <input class="search" placeholder="Поиск по сайту">
+            <div class="icon">
+                <div>
+                    <svg class="cart" viewBox="0 -2 19.001 19.001" xmlns="http://www.w3.org/2000/svg">
+                        <path id="Path_14" data-name="Path 14"
+                            d="M473.974,826v-1h12v1Zm0,2h11v1h-11Zm9.987,4.02h-9.992a2.664,2.664,0,0,1-2.71-2.66l-.8-7.36h-3.484v-1h4.406l.869,8.36a1.874,1.874,0,0,0,1.72,1.633h9.992v1.027Zm-10.487.98a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,473.474,833Zm-.531,1.969h1V834h-1ZM481.474,833a1.5,1.5,0,1,1-1.5,1.5A1.5,1.5,0,0,1,481.474,833Zm-.531,1.969h1V834h-1Z"
+                            transform="translate(-466.973 -821)" />
+                    </svg>
+
+                </div>
+                <div>
+                    <svg class="favorite" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 10.9696L11.9628 18.5497C10.9782 19.4783 9.64274 20 8.25028 20C6.85782 20 5.52239 19.4783 4.53777 18.5497C3.55315 17.6211 3 16.3616 3 15.0483C3 13.7351 3.55315 12.4756 4.53777 11.547M14.429 6.88674L7.00403 13.8812C6.67583 14.1907 6.49144 14.6106 6.49144 15.0483C6.49144 15.4861 6.67583 15.9059 7.00403 16.2154C7.33224 16.525 7.77738 16.6989 8.24154 16.6989C8.70569 16.6989 9.15083 16.525 9.47904 16.2154L13.502 12.4254M8.55638 7.75692L12.575 3.96687C13.2314 3.34779 14.1217 3 15.05 3C15.9783 3 16.8686 3.34779 17.525 3.96687C18.1814 4.58595 18.5502 5.4256 18.5502 6.30111C18.5502 7.17662 18.1814 8.01628 17.525 8.63535L16.5 9.601"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div>
+                    <svg class="chart" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 22H2" stroke-width="1.5" stroke-linecap="round" />
+                        <path d="M21 22V14.5C21 13.6716 20.3284 13 19.5 13H16.5C15.6716 13 15 13.6716 15 14.5V22"
+                            stroke-width="1.5" />
+                        <path
+                            d="M15 22V9M9 22V5C9 3.58579 9 2.87868 9.43934 2.43934C9.87868 2 10.5858 2 12 2C13.4142 2 14.1213 2 14.5607 2.43934C15 2.87868 15 3.58579 15 5V5"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M9 22V9.5C9 8.67157 8.32843 8 7.5 8H4.5C3.67157 8 3 8.67157 3 9.5V16M3 22V19.75"
+                            stroke-width="1.5" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="account">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="9" r="3" stroke-width="1.5" />
+                    <path d="M17.9691 20C17.81 17.1085 16.9247 15 11.9999 15C7.07521 15 6.18991 17.1085 6.03076 20"
+                        stroke-width="1.5" stroke-linecap="round" />
+                    <path
+                        d="M7 3.33782C8.47087 2.48697 10.1786 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 10.1786 2.48697 8.47087 3.33782 7"
+                        stroke-width="1.5" stroke-linecap="round" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="notises-wrap">
+        <div class="qwqw">
+            <div class="покупки-одного-числа">
+                <p class="date">28 ноября 2023</p>
+                <div class="notices">
+                    <div class="top-row">
+                        <div class="not-title">
+                            Снизилась цена на товар из избранного
+                        </div>
+                        <div class="close">
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <img class="not-img"
+                            src="https://g.dns-shop.ru/thumb/st4/fit/190/190/7c4ccda712ae99c46fb29cc2923e5da7/0beb18381d58821b3d518915d52a1497b3f9bd273b174f3a5d6d07507563596a.jpg"
+                            alt="">
+                        <div class="main-info">
+
+
+
+                            <div class="item-title">Клавиатура проводная Dark Project KD83A [DP-KD-83A-...</div>
+
+                            <div class="price">
+                                <div class="price-old">
+                                    4566 ₽
+                                </div>
+                                <div class="price-new">
+                                    3001
+                                </div>
+                            </div>
+
+                            <div class="abcd">Актуально на момент отправки</div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="notices">
+                    <div class="top-row">
+                        <div class="not-title">
+                            Снизилась цена на товар из избранного
+                        </div>
+                        <div class="close">
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <img class="not-img"
+                            src="https://g.dns-shop.ru/thumb/st4/fit/190/190/7c4ccda712ae99c46fb29cc2923e5da7/0beb18381d58821b3d518915d52a1497b3f9bd273b174f3a5d6d07507563596a.jpg"
+                            alt="">
+                        <div class="main-info">
+
+
+
+                            <div class="item-title">Клавиатура проводная Dark Project KD83A [DP-KD-83A-...</div>
+
+                            <div class="price">
+                                <div class="price-old">
+                                    4566 ₽
+                                </div>
+                                <div class="price-new">
+                                    3001
+                                </div>
+                            </div>
+
+                            <div class="abcd">Актуально на момент отправки</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="покупки-одного-числа">
+                <p class="date">31 ноября 2023</p>
+                <div class="notices">
+                    <div class="top-row">
+                        <div class="not-title">
+                            Снизилась цена на товар из избранного
+                        </div>
+                        <div class="close">
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <img class="not-img"
+                            src="https://g.dns-shop.ru/thumb/st4/fit/190/190/7c4ccda712ae99c46fb29cc2923e5da7/0beb18381d58821b3d518915d52a1497b3f9bd273b174f3a5d6d07507563596a.jpg"
+                            alt="">
+                        <div class="main-info">
+
+
+
+                            <div class="item-title">Клавиатура проводная Dark Project KD83A [DP-KD-83A-...</div>
+
+                            <div class="price">
+                                <div class="price-old">
+                                    4566 ₽
+                                </div>
+                                <div class="price-new">
+                                    3001
+                                </div>
+                            </div>
+
+                            <div class="abcd">Актуально на момент отправки</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="покупки-одного-числа">
+                <p class="date">5 декабря 2023</p>
+                <div class="notices">
+                    <div class="top-row">
+                        <div class="not-title">
+                            Снизилась цена на товар из избранного
+                        </div>
+                        <div class="close">
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <img class="not-img"
+                            src="https://g.dns-shop.ru/thumb/st4/fit/190/190/7c4ccda712ae99c46fb29cc2923e5da7/0beb18381d58821b3d518915d52a1497b3f9bd273b174f3a5d6d07507563596a.jpg"
+                            alt="">
+                        <div class="main-info">
+
+
+
+                            <div class="item-title">Клавиатура проводная Dark Project KD83A [DP-KD-83A-...</div>
+
+                            <div class="price">
+                                <div class="price-old">
+                                    4566 ₽
+                                </div>
+                                <div class="price-new">
+                                    3001
+                                </div>
+                            </div>
+
+                            <div class="abcd">Актуально на момент отправки</div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="notices">
+                    <div class="top-row">
+                        <div class="not-title">
+                            Снизилась цена на товар из избранного
+                        </div>
+                        <div class="close">
+                        </div>
+                    </div>
+                    <div class="bottom-row">
+                        <img class="not-img"
+                            src="https://g.dns-shop.ru/thumb/st4/fit/190/190/7c4ccda712ae99c46fb29cc2923e5da7/0beb18381d58821b3d518915d52a1497b3f9bd273b174f3a5d6d07507563596a.jpg"
+                            alt="">
+                        <div class="main-info">
+
+
+
+                            <div class="item-title">Клавиатура проводная Dark Project KD83A [DP-KD-83A-...</div>
+
+                            <div class="price">
+                                <div class="price-old">
+                                    4566 ₽
+                                </div>
+                                <div class="price-new">
+                                    3001
+                                </div>
+                            </div>
+
+                            <div class="abcd">Актуально на момент отправки</div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-right">
+            <h4 class="account-name">Пришелец-JJ11644</h4>
+            <p class="item">Заказы</p>
+            <p class="item">Бонусы ProZaPass</p>
+            <p class="item">Обратная связь</p>
+            <p class="item">Мои адреса</p>
+            <p class="item">Мой смартфон</p>
+            <p class="item">Сборки компьютеров</p>
+            <p class="item">Наборы кухонной техники</p>
+            <p class="item">Обращения в сервис</p>
+            <p class="item">Контрагенты</p>
+            <p class="item">Настройки профиля</p>
+            <p class="item">Выйти</p>
+        </div>
+    </div>
+    <div class="main">
+        <div class="orders">
+            <div>
+                <h4>Личный кабинет</h4>
+                <p class="bonus">Получайте бонусы, отслеживайте заказы и делитесь мнением</p>
+            </div>
+            <button class="my-orders">Мои заказы</button>
+        </div>
+
+        <div class="clock">
+            <p class="minute">08</p>:
+            <p class="second">40</p>
+        </div>
+
+        <div class="div-two">
+            <p class="galka">v</p>
+            <h2 class="title">Вася купил новый мопед</h2>
+            <div class="содержимое">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facilis nesciunt alias
+                tur quo, necessitatibus eveniet blanditiis doloribus eaque tempore tenetur quam sunt
+                cum.
+                Quasi minima sint tempora enim incidunt facilis animi earum, cumque esse, architecto consequuntur iste
+                perferendis nesciunt necessitatibus! Veniam quibusdam soluta libero quidem vero officiis excepturi!
+                Ipsum,
+                culpa
+                animi.
+            </div>
+            <div class="счетчик">
+                <div class="likes">
+                    43
+                </div>
+                <div class="heart">
+                    <svg width="45px" height="45px" viewBox="0 0 24 24" fill="none">
+                        <path class="цвет"
+                            d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12.33 17C12.15 17.06 11.84 17.06 11.66 17C10.1 16.47 6.6 14.24 6.6 10.46C6.6 8.79 7.94 7.44 9.6 7.44C10.58 7.44 11.45 7.91 12 8.65C12.54 7.92 13.42 7.44 14.4 7.44C16.06 7.44 17.4 8.79 17.4 10.46C17.4 14.24 13.9 16.47 12.33 17Z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div class="div-two">
+            <p class="galka">v</p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo facilis nesciunt alias
+            tur quo, necessitatibus eveniet blanditiis doloribus eaque tempore tenetur quam sunt
+            cum.
+            Quasi minima sint tempora enim incidunt facilis animi earum, cumque esse, architecto consequuntur iste
+            perferendis nesciunt necessitatibus! Veniam quibusdam soluta libero quidem vero officiis excepturi! Ipsum,
+            culpa
+            animi.
+        </div>
+
+    </div>
+    <div class="loading-wrap">
+        <div class="loading-inner"></div>
+    </div>
+
+    <div class="calculate-wrap">
+        <div class="calculate">
+            <div class="итог">
+                <div class="экран">
+                    <div class="pervoe"></div>
+                    <div class="operation"></div>
+                    <div class="vtoroye"></div>
+                </div>
+                <div class="reset">
+                    С
+                </div>
+            </div>
+            <div class="цифрызнаки">
+                <div class="row">
+                    <div class="button znak">+</div>
+                    <div class="button znak">-</div>
+                    <div class="button znak">*</div>
+                    <div class="button znak">/</div>
+                </div>
+                <div class="row">
+                    <div class="button number">7</div>
+                    <div class="button number">8</div>
+                    <div class="button number">9</div>
+                    <div class="button ravenstvo">=</div>
+                </div>
+                <div class="row">
+                    <div class="button number">4</div>
+                    <div class="button number">5</div>
+                    <div class="button number">6</div>
+                    <div class="button nazad"><-</div>
+                </div>
+                <div class="row">
+                    <div class="button number">1</div>
+                    <div class="button number">2</div>
+                    <div class="button number">3</div>
+                    <div class="button number">0</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+    <script src="myscript.js"></script>
+</body>
+
+</html>
