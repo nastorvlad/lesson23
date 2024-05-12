@@ -3,6 +3,7 @@ $(".logo").on("click", function () {
     $('.div-one').css("display", "none")
 })
 
+
 // Нажимая на профиль 
 $('.account').on("click", function () {
     // Показывает включено меню или выключено
