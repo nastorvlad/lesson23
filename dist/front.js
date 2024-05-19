@@ -1,0 +1,1 @@
+setInterval((function(){var t=$(".second").text();if((t=Number(t)+1)<10?$(".second").text("0"+t):$(".second").text(t),60==t){$(".second").text("00");var e=$(".minute").text();(e=Number(e)+1)<10?$(".minute").text("0"+e):$(".minute").text(e)}}),100);
